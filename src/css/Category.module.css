@@ -1,0 +1,37 @@
+/* Add category button container */
+.add_category_container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-bottom: 5px;
+}
+
+/* Add category button */
+.add_category_btn {    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: #e0e0e0;
+    border: none;
+}
+
+.add_category_btn:hover {
+    background-color: greenyellow;
+    transform: scale(1.2);
+}
+
+.intraction{
+    cursor: pointer;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .table_heading_row, .table_body_row {
+        gap: 70px; /* Reduce gap for smaller screens */
+        padding: 10px 5px; /* Adjust padding for smaller screens */
+    }
+}
